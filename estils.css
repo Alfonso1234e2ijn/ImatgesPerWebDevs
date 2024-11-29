@@ -1,0 +1,30 @@
+/* Estils generals per a la pàgina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.images-row {
+    display: flex;
+    justify-content: center; /* Centra les imatges horitzontalment */
+    gap: 20px; /* Espai entre les imatges */
+}
+
+.images-row img {
+    max-width: 100%; /* Asegura que les imatges no excedeixin el límit del contenidor */
+    height: auto; /* Manté la proporció original de les imatges */
+}

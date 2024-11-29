@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imatges Responsives</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+      }
+      .container {
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Imatge Responsive amb Srcset</h1>
+      <div class="image-container">
+        <img
+          srcset="
+            img\smallChristmas-270w.jpg 270w,
+            img\mediumChristmas-620w.jpg 620w,
+            img\bigChristmas-1200w.jpg 1200w
+          "
+          sizes="
+            (max-width: 600px) 100vw,
+            (max-width: 1000px) 50vw,
+            100vw
+          "
+
+          alt="Christmas Tree"
+        />
+      </div>
+    </div>
+  </body>
+</html>

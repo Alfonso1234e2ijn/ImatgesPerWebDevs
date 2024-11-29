@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imatges Responsives</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+      }
+      .container {
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Direccio d'art amb picture</h1>
+      <div class="image-container">
+        <picture>
+          <source
+            srcset="img/smallChristmas-270w.jpg"
+            media="(max-width: 480px)"
+          />
+          <source
+            srcset="img\bigChristmas-1200w.jpg"
+            media="(max-width: 780px)"
+          />
+          <img
+            src="img\mediumChristmas-620w.jpg"class="desktopImg"
+          />
+        </picture>
+      </div>
+    </div>
+  </body>
+</html>

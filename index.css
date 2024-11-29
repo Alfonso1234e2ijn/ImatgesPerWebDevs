@@ -1,0 +1,67 @@
+/* Estils generals */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f8ff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #c1d8f0;
+}
+
+/* Encapçalament */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #d32f2f;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Text del cos */
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Botons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Peu de pàgina */
+footer {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #666;
+}

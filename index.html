@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pàgina Nadalenca</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Incluye los estilos básicos directamente aquí o mantenlos en un archivo CSS */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .button {
+            display: inline-block;
+            padding: 1rem;
+            background-color: #ff5722;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎄 Benvingut a la pàgina! 🎅</h1>
+        </header>
+        <main>
+            <div class="buttons">
+                <a href="insercio_basica.html" class="button">Insercio Basica</a>
+                <a href="imatges_responsives.html" class="button">Imatges Responsives</a>
+                <a href="direccio_dart.html" class="button">Direccio d'art amb picture</a>
+                <a href="galeria_lightbox.html" class="button">Galeria amb lightbox</a>
+                <a href="mapa_interactiu.html" class="button">Mapa Interactiu</a>
+                <a href="lazy_loading.html" class="button">Lazy Loading</a>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Esperit Nadalenc. Tots els drets reservats.</p>
+        </footer>
+    </div>
+</body>
+</html>
